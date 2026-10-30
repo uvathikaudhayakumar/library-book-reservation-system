@@ -1,0 +1,21 @@
+{
+  "name": "library-book-reservation-fine-management",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Library Book Reservation & Fine Management System using HTML, CSS, Bootstrap, jQuery, Node.js, Express.js and MongoDB",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js"
+  },
+  "dependencies": {
+    "bootstrap": "^5.3.3",
+    "express": "^4.21.2",
+    "jquery": "^3.7.1",
+    "mongoose": "^8.9.5",
+    "dotenv": "^16.4.7"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
